@@ -6,3 +6,8 @@
 git branch -d branch_name
 git push origin :branch_name
 ```
+
+### Show all remote merged branches
+```
+git branch -a --merged
+```

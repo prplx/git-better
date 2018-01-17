@@ -1,7 +1,14 @@
 # git-better
 ## Collection of git tips
 
-### Delete local and remote branch
+### Rename branch locally and remotely
+```
+git branch -m <old_branch> <new_branch>
+git push origin :<branch>
+git push --set-upstream origin <new_branch>
+```
+
+### Delete branch locally and remotely
 ```
 git branch -d <branch>
 git push origin :<branch>

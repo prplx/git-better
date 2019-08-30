@@ -28,3 +28,8 @@ git checkout .
 git clean -f
 
 ```
+
+### Checkout previous branch
+```
+git checkout -
+```

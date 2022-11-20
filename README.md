@@ -33,3 +33,8 @@ git clean -f
 ```
 git checkout -
 ```
+
+### Remove a file from history
+```
+git filter-branch --index-filter 'git rm -rf --cached --ignore-unmatch path_to_file' HEAD
+```
